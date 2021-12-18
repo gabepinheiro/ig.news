@@ -2,7 +2,7 @@
   --wrapperHeight: 8rem;
 
   height: var(--wrapperHeight);
-  border-bottom: 1px solid #29292e; 
+  border-bottom: 1px solid var(--gray-800); 
 }
 
 .content {
