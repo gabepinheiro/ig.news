@@ -1,3 +1,5 @@
+import {SignInButton} from '../signin-button'
+
 import styles from './styles.module.scss'
 
 export const Header = () => (
@@ -9,6 +11,8 @@ export const Header = () => (
         <a className={`${styles.navLink} ${styles.navLinkActive}`} href="#">Home</a>
         <a className={styles.navLink} href="#">Posts</a>
       </nav>
+
+      <SignInButton />
     </section>
   </header >
 )
