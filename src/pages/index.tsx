@@ -1,12 +1,6 @@
-import Head from 'next/head'
+import {HomeTemplate} from '../templates/home'
 
 export default function Home() {
-  return (
-    <>
-      <Head>
-        <title>Início - ig.news</title>
-      </Head>
-      <h1>Ignews</h1>
-    </>
-  )
+  return <HomeTemplate />
+
 }
